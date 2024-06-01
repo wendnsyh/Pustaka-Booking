@@ -115,7 +115,7 @@ class Member extends CI_Controller
             $email = $this->input->post('email', true); //jika ada gambar yang akan diupload 
             $upload_image = $_FILES['image']['name'];
             if ($upload_image) {
-                $config['upload_path'] = './assets/img/profile/';
+                $config['upload_path'] = './uploads/member/';
                 $config['allowed_types'] = 'gif|jpg|png|webp|jpeg';
                 $config['max_size'] = '10240';
                 $config['max_width'] = '4096';

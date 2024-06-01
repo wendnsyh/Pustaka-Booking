@@ -41,7 +41,7 @@
                 </div>
             </div>
 
-            </form>
+            <?= form_close(); ?>
         </div>
     </div>
 
